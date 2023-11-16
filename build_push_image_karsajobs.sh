@@ -1,6 +1,3 @@
-export PAT=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
-
-
 # Membuat image dengan nama "reynaldi491-docker/karsajobs" dan memberikan tag "latest"
 docker build -t reynaldi491-docker/karsajobs:latest .
 

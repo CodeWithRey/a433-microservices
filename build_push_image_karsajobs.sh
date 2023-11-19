@@ -7,5 +7,5 @@ docker tag reynaldi491-docker/karsajobs:latest ghcr.io/codewithrey/a433-microser
 # Login ke git hub container registry menggunakan personal access token
 echo $PAT | docker login ghcr.io -u codewithrey --password-stdin
 
-# Menambahkan image ke Docker Hub
+# Menambahkan image ke Github Container Registry
 docker push ghcr.io/codewithrey/a433-microservices/reynaldi491-docker/karsajobs:latest

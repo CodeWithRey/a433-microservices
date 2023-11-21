@@ -22,6 +22,9 @@ COPY ./*.js ./
 # Mencopy seluruh file dengan extensi env (environment)
 COPY ./.env /app/
 
+# Mengexpose port yang digunakan
+EXPOSE 3000
+
 # Menetapkan command default untuk menjalankan aplikasi
 CMD ["node", "index.js"]
 

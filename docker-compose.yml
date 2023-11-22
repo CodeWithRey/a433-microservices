@@ -3,7 +3,7 @@ version: '3.2'
 
 # Konfigurasi Service yang akan dijalankan dalam kontainer
 services:
-  # Nama Service: shipping-service
+  # Nama Service
   order-service:
     # Menggunakan gambar Docker dari Github Container Registry dan versi terbaru
     image: ghcr.io/codewithrey/a433-microservices/reynaldi491-docker/order-service:latest

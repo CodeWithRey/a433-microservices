@@ -1,5 +1,3 @@
-export PAT=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
-
 # Membuat image dengan nama "reynaldi491-docker/order-service" dan memberikan tag "latest"
 docker build -t reynaldi491-docker/order-service:latest .
 

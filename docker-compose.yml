@@ -3,10 +3,12 @@ version: '3.2'
 services:
   shipping-service:
     image: ghcr.io/codewithrey/a433-microservices/reynaldi491-docker/shipping-service:latest
+    container_name: 'shipping-service'
     ports:
       - '3001:3001'
     environment:
       NODE_ENV: production
+      AMQP_URL: amqp://guest:guest@submission_rabbitmq:5672
     depends_on:
       - submission_rabbitmq
     networks:
